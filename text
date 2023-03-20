@@ -1,0 +1,53 @@
+main
+    create_window
+        create_struct
+            texture from file
+            struct_sprite init
+        init window
+            init spritewindow
+        first sprite
+            create_struct
+                init_sprite
+        fisrt pen
+            create_struct
+                init_sprite
+    run_loop
+        event
+            ?evtclosed
+            ?mousepressed
+                check_click_pos
+                    sprite_move
+                        setpos = getpos
+        draw_sprite
+
+Sprite list
+0 -> window
+1 -> grey low bar
+2 -> behind first pen
+3 -> first pen
+4 -> behind eraser
+5 -> eraser
+6 -> top rect
+7 -> right rect
+8 -> left rect
+9 -> colorwheel
+10-> behind color picker
+11-> color picker
+12-> square color
+13-> barre de la taille stylo
+14-> bouton mouvable au dessus
+15-> button for pastel wheel
+16-> mini pastel wheel for icon
+17-> pastel wheel
+18-> rectangle shape text for file
+19-> text for file
+20-> loupe behind icon
+21-> loupe png
+22-> restore behind icon
+23-> restore png
+24-> icone 2/3 color wheel
+25-> mini_color_xheel
+26-> save button
+27-> help button
+28-> Rectangle save
+29-> Rectangle help
